@@ -18,7 +18,7 @@ int main() {
 	int pilihan;
 
 	do {
-		cout << "===========================" << endl;
+		cout << "\n\n===========================" << endl;
 		cout << "=========MAIN MENU=========" << endl;
 		cout << "===========================" << endl;
 		cout << "1. Luas Persegi" << endl;
@@ -31,7 +31,7 @@ int main() {
 
 		switch (pilihan) {
 		case 1:
-			cout << "Menghitung luas persegi " << endl;
+			cout << "\n\nMenghitung luas persegi " << endl;
 			cout << "Masukkan Panjang = ";
 			cin >> panjang;
 			cout << "Masukkan Lebar = ";
@@ -39,16 +39,16 @@ int main() {
 			cout << "Luas Persegi = " << LuasPersegi(panjang, lebar) << endl;
 			break;
 		case 2:
-			cout << "Menghitung Luas Lingkaran" << endl;
+			cout << "\n\nMenghitung Luas Lingkaran" << endl;
 			cout << "Masukkan jari - jari = ";
 			cin >> jejari;
 			cout << "Luas Lingkaran adalah = " << LuasLingkaran(jejari) << endl;
 			break;
 		case 3:
-			cout << "menghitung Luas Segitiga" << endl;
+			cout << "\n\nmenghitung Luas Segitiga" << endl;
 			cout << "Masukkan Alas = ";
 			cin >> alas;
-			cout << "Masukkan Tinggi = " <<;
+			cout << "Masukkan Tinggi = ";
 			cin >> tinggi;
 			cout << "Luas Segitiga adalah = " << LuasSegitiga(alas, tinggi) << endl;
 			break;
