@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Looping_Exercise.cpp">
+    <ClCompile Include="Latihan5_175.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
